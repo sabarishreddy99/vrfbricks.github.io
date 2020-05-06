@@ -1520,8 +1520,8 @@ anime.timeline({loop: true})
   <div id="conthead">
   <h3 >Proprietor: Remala Govinda Reddy</h3>
   <h4><a href="tel:9912763863"><i class="fa fa-phone" aria-hidden="true" style="font-size:30px;"></i></a> (+91) <a href="tel:9912763863" style="text-decoration: none;color: black;">9912763863</a></h4>
+</div> 
 
-</div>
   <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc9tPKxqSIIWRyWIEq2gvFbZFrR0ScoKmq-gQts2QTYWFvr6Q/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm();">
     <label for="name">Name:</label>
     <input type="text" id="name" name="entry.1103051127" required="required" placeholder="Your name..">
@@ -1572,6 +1572,12 @@ anime.timeline({loop: true})
     onload="if(submitted) {window.location='https://vrfbricks.github.io/';}"></iframe> 
 
  <script type="text/javascript">var submitted=false;</script>
+  <script type="text/javascript">
+
+  var submitted=true;
+   alert("ThankYou for choosing VRF Bricks....We will reach you soon..Have a great day!");
+
+</script>
 <script type="text/javascript">
   function validateName() {
             var name = document.getElementById('name').value;
@@ -1622,12 +1628,12 @@ anime.timeline({loop: true})
    function validateForm() {
           if (!validateName() || !validatePhone()) {
 
-            alert("Form not submitted");//Validation Message
+            alert("VRF Bricks Contact Form not submitted");//Validation Message
             return false;
           }
           else {
             submitted=true;
-            alert("ThankYou for choosing VRF Bricks....We will reach you soon..Have a great day!");
+           
             return true;
           }
         }
